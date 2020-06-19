@@ -63,12 +63,6 @@
       <section class="container">
         <h1 class="contacts-title">Сайт временно в разработке!!!</h1>
       </section>
-
-      <form action="" method="post">
-        <label for="message">Сообщение</label>
-        <input type="text" id="message" placeholder="имейл" />
-        <button type="submit">Отправить</button>
-      </form>
     </main>
 
     <!-- footer -->
@@ -142,10 +136,15 @@
             </li>
           </ul>
         </div>
-        <div class="subscribe-box">
+        <form class="subscribe-box">
           <b class="subscribe-box__title">Подпишитесь на рассылку</b>
           <div class="subscribe-box__form">
-            <input type="email" name="E-mail" class="input" />
+            <input
+              type="email"
+              name="mail"
+              class="subscribe-box__input"
+              placeholder="E-mail"
+            />
             <button class="button button--theme_footer">
               Подписаться
               <svg class="icon-plane" width="24" height="24">
@@ -153,7 +152,7 @@
               </svg>
             </button>
           </div>
-        </div>
+        </form>
       </div>
       <div class="copyright">2020 | Developed by GoIT Students</div>
     </footer>
